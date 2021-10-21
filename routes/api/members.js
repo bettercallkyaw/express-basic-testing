@@ -76,4 +76,5 @@ router.delete('/:id',(req,res)=>{
         res.status(400).json({msg:`no member with the id ${req.params.id}`});
     }
 });
+
 module.exports=router;
