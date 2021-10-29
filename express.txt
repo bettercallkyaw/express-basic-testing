@@ -21,3 +21,13 @@ What is Express?
   *Make Changes to the request/response object 
   *End response cycle 
   *Call next middleware in the stack
+
+  ##Express Production on Heroku
+  first you need to create file=>Procfile----->web: node index.js
+
+- git init
+- git add .
+- git commit -m "first commit"
+- heroku login
+- heroku create
+- git push heroku master
